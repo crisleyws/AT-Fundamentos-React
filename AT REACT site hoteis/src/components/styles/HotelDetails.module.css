@@ -1,0 +1,111 @@
+.HotelDetails_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 1.5rem;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.HotelDetails_container h2 {
+    font-size: 32px;
+    padding-bottom: 1rem;
+    text-align: center;
+    color: #333;
+    border-bottom: 2px solid #2537f89f;
+    width: 100%;
+}
+
+.HotelDetails_img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin: 1rem 0;
+    transition: transform 0.3s;
+}
+
+.HotelDetails_img:hover {
+    transform: scale(1.05);
+}
+
+.HotelDetails_discription {
+    font-size: 18px;
+    text-align: center;
+    margin: 1rem 0;
+    color: #555;
+}
+
+.HotelDetails_Rating {
+    font-size: 20px;
+    color: #ffa500;
+    margin: 0.5rem 0;
+}
+
+.HotelDetails_location {
+    font-size: 18px;
+    margin: 0.5rem 0;
+    color: #777;
+}
+
+.HotelDetails_locationIcon{
+    color: #ff0303;
+}
+
+.HotelDetails_price {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0.5rem 0;
+    color: #2c3e50;
+}
+
+.HotelDetails_itens {
+    font-size: 16px;
+    margin-top: 1rem;
+    color: #555;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.HotelDetails_itens ul {
+        padding: 0;
+}
+
+.HotelDetails_itens li {
+    background-color: #e7e7e7;
+    margin: 0.5rem 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    list-style-type: none;
+}
+
+.HotelDetails_itens li:hover {
+    background-color: #d5d5d5;
+    transform: scale(1.05);
+}
+.HotelDetails_moreImages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.HotelDetails_moreImage {
+    max-width: 30%;
+    height: auto;
+    border-radius: 5px;
+    margin: 0.5rem;
+    transition: transform 0.3s;
+}
+
+.HotelDetails_moreImage:hover {
+    transform: scale(1.05);
+}
+
+

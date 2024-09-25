@@ -1,0 +1,32 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", Sans-serif;
+  }
+  
+  html,
+  body,
+  #root {
+    background-color: #efefef;
+    height: 100%;
+  }
+
+   ::-webkit-scrollbar {
+    width: 5px;
+  height: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 100px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 100px;
+  }

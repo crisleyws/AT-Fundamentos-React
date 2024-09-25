@@ -1,0 +1,106 @@
+.EditList_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .EditList_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 10px 19px 0px rgba(0, 0, 0, 0.75);
+    margin: 0.5em;
+    width: 23%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .EditList_card:hover {
+    transform: scale(1.05);
+  }
+  
+  .EditList_img {
+    width: 80%;
+    height: 80%;
+    margin: 5px;
+    max-width: 300px;
+  }
+  
+  .EditList_info {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 0.3em;
+    padding: 10px;
+  }
+  
+  .EditList_name {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 0.5em;
+  }
+  
+  .EditList_Rating {
+    font-size: 18px;
+    margin-bottom: 0.3em;
+  }
+  
+  .EditList_location {
+    margin-bottom: 0.3em;
+  }
+  
+  .EditList_price {
+    margin-bottom: 0.3em;
+  }
+  
+  .EditList_button {
+    font-size: 1rem;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: #2537f89f;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .EditList_button:hover {
+    background-color: #2537f8da;
+  }
+  
+  @media (max-width: 1024px) {
+    .EditList_card {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .EditList_card {
+      width: 100%;
+    }
+  
+    .EditList_img {
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .EditList_name {
+      font-size: 18px;
+    }
+  
+    .EditList_Rating {
+      font-size: 16px;
+    }
+  
+    .EditList_price, .EditList_location {
+      font-size: 14px;
+    }
+  }
+  

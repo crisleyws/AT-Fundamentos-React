@@ -1,0 +1,75 @@
+.EditarHotel_container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.EditarHotel_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.EditarHotel_group {
+    margin-bottom: 15px;
+}
+
+.EditarHotel_group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.EditarHotel_group input,
+.EditarHotel_group textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.EditarHotel_button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.EditarHotel_button:hover {
+    background-color: #45a049;
+}
+
+.EditarHotel_deleteButton {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.EditarHotel_deleteButton:hover {
+    background-color: #ff3333;
+}
+
+.feedback {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.feedback.success {
+    background-color: #4caf50;
+    color: white;
+}
+
+.feedback.error {
+    background-color: #f44336;
+    color: white;
+}

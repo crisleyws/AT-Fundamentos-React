@@ -1,0 +1,175 @@
+.HotelList_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.HotelList_sort {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.HotelList_sort label {
+  margin-right: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.HotelList_sort select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+.HotelList_sort select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.HotelList_cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.HotelList_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 10px 10px 19px 0px rgba(0, 0, 0, 0.75);
+  margin: 0.5em;
+  width: 23%;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+}
+
+.HotelList_card:hover {
+  transform: scale(1.05);
+}
+
+.HotelList_img {
+  width: 80%;
+  height: auto;
+  margin: 5px;
+  max-width: 300px;
+}
+
+.HotelList_info {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 0.3em;
+  padding: 10px;
+}
+
+.HotelList_name {
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+}
+
+.HotelList_Rating {
+  font-size: 18px;
+  margin-bottom: 0.3em;
+}
+
+.HotelList_location {
+  margin-bottom: 0.3em;
+}
+
+.HotelList_price {
+  margin-bottom: 0.3em;
+}
+
+.HotelList_button {
+  font-size: 1rem;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: #2537f89f;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.HotelList_button:hover {
+  background-color: #2537f8da;
+}
+
+.HotelList_search {
+  margin-bottom: 20px;
+}
+
+.HotelList_searchInput {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 400px;
+  transition: border-color 0.3s;
+}
+
+.HotelList_searchInput:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.HotelList_favoriteIcon {
+  font-size: 24px;
+  color: lightgray;
+  cursor: pointer;
+  transition: color 0.3s;
+  margin-right: 10px;
+}
+
+.HotelList_favoriteIcon.active {
+  color: gold;
+}
+
+.HotelList_card > div {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .HotelList_card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .HotelList_card {
+    width: 100%;
+  }
+
+  .HotelList_img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .HotelList_name {
+    font-size: 18px;
+  }
+
+  .HotelList_Rating {
+    font-size: 16px;
+  }
+
+  .HotelList_price, .HotelList_location {
+    font-size: 14px;
+  }
+}

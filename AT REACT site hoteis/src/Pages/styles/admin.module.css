@@ -1,0 +1,47 @@
+.admin_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem;
+}
+.admin_titulo{
+    font-size: 35px;
+    margin-bottom: 1.5rem;
+}
+.admin_cadastro{
+    text-align: center;
+    width: 15%;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem; 
+    border-radius: 12px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: #2537f89f;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+}
+
+.admin_cadastro:hover{
+    background-color: #2537f8da;
+}
+
+.admin_editar{
+    text-align: center;
+    width: 15%;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem; 
+    border-radius: 12px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: #2537f89f;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+}
+
+.admin_editar:hover{
+    background-color: #2537f8da;
+}
